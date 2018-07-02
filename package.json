@@ -1,0 +1,27 @@
+{
+  "name": "master-react16",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "git": "^0.1.5",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "http://kimeunjeong881.github.io/master-react16",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimeunjeong881/master-react16.git"
+  }
+}
